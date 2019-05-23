@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/mudutv/MRTC-Interactive-iOS.git', :tag => s.version.to_s}
 
   s.ios.deployment_target 	= '9.0'
-  s.ios.vendored_framework	= 'ios/MRTC_Interactive.framework'
+  s.ios.vendored_framework	= 'framework/MRTC_Interactive.framework'
 
   s.dependency 'MRTC','>=1.1.2'
 
