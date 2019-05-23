@@ -1,0 +1,6 @@
+framework module MRTC_Interactive {
+  umbrella header "MRTC_Interactive.h"
+
+  export *
+  module * { export * }
+}
